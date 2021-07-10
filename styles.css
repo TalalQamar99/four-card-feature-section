@@ -39,6 +39,7 @@
 .box,.box1,.box2,.box3,.box4{
     width: 300px;
     height: 250px;
+    border-radius: 8px;
 }
 .box1{
 background-color: blue;

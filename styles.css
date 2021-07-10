@@ -6,8 +6,9 @@
  .attribution a {
      color: hsl(228, 45%, 44%);
  }
- body{
-     background-color: hsl(0, 0%, 98%);
+
+ body {
+     background-color: hsl(0, 8%, 95%);
  }
 
  .div-main {
@@ -17,7 +18,7 @@
  }
 
  .main-h1,
- .second-h1{
+ .second-h1 {
      font-family: "Poppins";
      font-size: 30px;
  }
@@ -25,36 +26,80 @@
  .second-h1 {
      font-weight: 600;
 
-}
-.p-top{
-    margin-top: -25px;
-    font-family: "Poppins";
-}
-.main-box{
-    display: flex;
-    flex-direction: row;
-    width: 900px;
-    margin: auto;
-}
-.box,.box1,.box2,.box3,.box4{
-    width: 300px;
-    height: 250px;
-    border-radius: 8px;
-}
-.box1{
-background-color: blue;
-margin-top: 125px;
-margin-right: 20px;
-}
-.box2{
-background-color: red;
-margin-bottom: 20px;
-}
-.box3{
-background-color: yellow;
-}
-.box4{
-    background-color: olive;
-    margin-top: 125px;
-    margin-left: 20px;
-}
+ }
+
+ .p-top {
+     margin-top: -25px;
+     font-family: "Poppins";
+ }
+
+ .main-box {
+     display: flex;
+     flex-direction: row;
+     width: 1050px;
+     margin: auto;
+ }
+
+ .box,
+ .box1,
+ .box2,
+ .box3,
+ .box4 {
+     width: 350px;
+     height: 250px;
+     border-radius: 8px;
+     box-shadow: 3px 3px 8px 2px rgb(151, 148, 148);
+ }
+
+ .box1 {
+     background-color: white;
+     margin-top: 125px;
+     margin-right: 20px;
+     border-top: 5px solid hsl(180, 62%, 55%);
+     position: relative;
+ }
+
+ .box2 {
+     background-color: white;
+     margin-bottom: 20px;
+     border-top: 5px solid hsl(0, 78%, 62%);
+     position: relative;
+ }
+
+ .box3 {
+     background-color: white;
+     border-top: 5px solid hsl(34, 97%, 64%);
+     position: relative;
+ }
+
+ .box4 {
+     background-color: white;
+     margin-top: 125px;
+     margin-left: 20px;
+     border-top: 5px solid hsl(212, 86%, 64%);
+     position: relative;
+ }
+
+ img {
+     position: absolute;
+     bottom: 20px;
+     right: 20px;
+ }
+
+ .box-h1 {
+     font-family: "Poppins";
+     font-weight: 600;
+     font-size: 24px;
+     margin-top: 20px;
+     margin-left: 25px;
+     color: hsl(240, 2%, 12%);
+ }
+
+ .box-p {
+     font-family: "Poppins";
+     font-weight: 200;
+     font-size: 14px;
+     margin-top: -5px;
+     margin-left: 25px;
+     color: hsl(229, 5%, 54%);
+ }

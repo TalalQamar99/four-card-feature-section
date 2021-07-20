@@ -108,7 +108,7 @@
    .main-box {
      display: flex;
      flex-direction: column;
-     width: 1050px;
+     width: 375px;
      margin: auto;
  }
   .box1 {
